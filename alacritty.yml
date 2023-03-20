@@ -27,8 +27,6 @@ colors:
     cyan: "#56b6c2"
     white: "#ECEFF4"
 
-window_opacity: 0.95
-
 # 设置字体
 font:
   normal:
@@ -55,9 +53,15 @@ font:
     y: 0
 
 window:
+  dimensions:
+    columns: 100
+    lines: 30
   padding:
     x: 2
     y: 2
+  opacity: 0.7
+
+
 
 scrolling:
 # 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
