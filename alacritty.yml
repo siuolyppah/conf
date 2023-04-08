@@ -30,16 +30,16 @@ colors:
 # 设置字体
 font:
   normal:
-    family: "Fira Code"
+    family: "Cascadia Code"
     style: Regular
   bold:
-    family: "Fira Code"
+    family: "Cascadia Code"
     style: Bold
   italic:
-    family: "Fira Code"
+    family: "Cascadia Code"
     style: Italic
   bold_italic:
-    family: "Fira Code"
+    family: "Cascadia Code"
     style: Bold Italic
 
   # 字大小
@@ -51,6 +51,9 @@ font:
   glyph_offset:
     x: 0
     y: 0
+
+shell:
+  program: /usr/bin/zsh
 
 window:
   dimensions:
